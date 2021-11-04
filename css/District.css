@@ -8,6 +8,7 @@ body {
 
     font-family: 'Montserrat', sans-serif;
     text-align: center;
+    background: #7d2ae8;
     
 }
 
@@ -21,17 +22,31 @@ body {
 
 a {
     text-align: center;
+    
+}
+
+h2 {
+    font-weight: bold;
+    color:midnightblue;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fff;
 }
 
 #testimonials {
     
     background-color:#fff;
     color: black;
+    
 }
 
 .testimonial-text {
     font-size: 3rem;
     line-height: 1.5;
+    
 }
 
 .test-image {
