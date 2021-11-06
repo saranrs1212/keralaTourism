@@ -143,7 +143,7 @@ h2{
     padding-top: 25px;
 }
 
-.card {
+#card {
     padding: 7% 0 7%;
     text-align: center;
 }
@@ -152,7 +152,7 @@ h2{
 
 /* experience in kerala */
 
-.card {
+#card {
     background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../images/attam.jpg);
     padding: 0px;
     background-repeat: no-repeat;
@@ -174,16 +174,20 @@ h2{
 
   .slider{
     display: flex;
+    
   }
   .slider .card{
     flex: 1;
-    margin: 0 10px;
+    margin: 25px 10px;
     background: #fff;
   }
   .slider .card .img{
-    height: 500px;
-    width: 100%;
-    padding: 10px 20px;
+    /* height: 500px;
+    width: 100%; */
+    padding: 0;
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
   }
   .slider .card .img img{
     height: 100%;
@@ -225,7 +229,7 @@ h2{
     transition: 0.2s;
   }
   .card .content .btn button:hover{
-    transform: scale(0.9);
+    transform: scale(0.2);
   }
 
 
@@ -235,7 +239,7 @@ h2{
 
 
 
-  #site-stats
+#site-stats
 {
     padding: 100px 0;
 }
@@ -257,7 +261,7 @@ h2{
     margin-bottom: 10px;
 }
 
-.gallery
+#gallery
 {
     padding: 100px 0;
     background: #efefef;
@@ -301,7 +305,7 @@ h2{
 
 /* plan your trip */
 
-.trip {
+#trip {
     background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../images/tea.jpg);
     padding: 100px;
     background-repeat: no-repeat;
@@ -321,7 +325,7 @@ h2{
 }
 
 
-.trip {
+#trip {
     color: #efefef;
     padding: 5% 15% 7%; ;
     margin: 5px;
@@ -348,7 +352,7 @@ h4 {
 
 /* footer */
 
-.footer
+#footer
 {
     padding: 100px 20px 15px;
     background-image: linear-gradient(#2d557d,#9610fb);
@@ -360,31 +364,31 @@ h4 {
     margin-top: 15px;
     margin-bottom: 15px;
 }
-.footer h4
+#footer h4
 {
     text-align: left;
     margin-top: 15px;
     margin-bottom: 25px;
 }
-.footer p
+#footer p
 {
     font-size: 12px;
     text-align: justify;
     padding-right: 35px;
 }
-.footer .row .fa
+#footer .row .fa
 {
     padding-right: 20px;
     font-size: 15px;
 }
-.footer hr
+#footer hr
 {
     margin-top: 10px;
     background: #efefef;
 }
 
 
-.footer .copyright
+#footer .copyright
 {
     text-align: center;
     
