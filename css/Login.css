@@ -70,6 +70,7 @@ body{
   width: 100%;
   object-fit: cover;
   z-index: 10;
+  backface-visibility: hidden;
 }
 .container .cover .text{
   position: absolute;
@@ -87,6 +88,7 @@ body{
   font-weight: 600;
   color: #fff;
   text-align: center;
+  backface-visibility: hidden;
 }
 .cover .text .text-2{
   font-size: 15px;

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/signupstyle.css">
+    <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/c96da17317.js" crossorigin="anonymous"></script>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,900&family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <title>signup page</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <h2>Sign Up Page</h2>
+        </div>
+        <form id="form" class="form">
+            <div class="form-control">
+                <label for="username">Username</label>
+                <input type="text" placeholder="Enter Valid Username" id="username" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="username">Email</label>
+                <input type="email" placeholder="Enter Your Email ID" id="email" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="username">Mobile Number</label>
+                <input type="tel" placeholder="Enter Mobile Number" id="mobile" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+
+            <div class="form-control">
+                
+                <label for="username">Password</label>
+                <input onkeyup="trigger()" type="password" placeholder="Type Password" id="password"/>
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+               
+                <div class="indicator">
+                    <span class="weak"></span>
+                    <span class="medium"></span>
+                    <span class="strong"></span>
+                </div>
+                <div class="text">Your Password is too weak</div>
+            </div>
+
+            <div class="form-control">
+                <label for="username">Password check</label>
+                <input type="password" placeholder="Re-Enter Password" id="password2"/>
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <button>Submit</button>
+            <div class="last sign-up-text">Already have an account? <a href="indexloginpage.html">Login now</a></div>
+        </form>
+    </div>
+
+<script src="js/indexsign.js"></script>
+    
+</body>
+</html>
+
+
+
+
+
+
+
+

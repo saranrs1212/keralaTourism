@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/signupstyle.css">
+    <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/c96da17317.js" crossorigin="anonymous"></script>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,900&family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <title>signup page</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <h2>Login</h2>
+        </div>
+        <form id="form" class="form">
+            
+            <div class="form-control">
+                <label for="username">Email</label>
+                <input type="email" placeholder="Enter Your Email ID" id="email" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+         
+            <div class="form-control">
+                <label for="username">Password</label>
+                <input onkeyup="trigger()" type="password" placeholder="Type Password" id="password"/>
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>  
+
+            <div class="text"><a href="#">Forgot password?</a></div>
+                          
+            <button>Submit</button>
+            <div class="last sign-up-text">Don't have an account? <a href="indexsignup.html">Signup</a></div>
+        </form>
+    </div>
+
+<script src="js/login.js"></script>
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
